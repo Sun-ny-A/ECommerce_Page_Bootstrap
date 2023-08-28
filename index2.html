@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="container text-center">
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="beytn.jpg" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+                Beehive Merchandise
+            </a>
+            <div class="links">
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover px-5 text-white"
+                    href="http://127.0.0.1:5500/index.html">Home</a>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover px-5 text-white"
+                    href="#">Join Us</a>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover px-5 text-white"
+                    href="#">Shop Sales</a>
+                <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover px-5 text-white"
+                    href="#">General Inquiry</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">Home</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Join Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop Sales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">General Inquiries</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container text-center mt-5 mb-5" style="height: 500px; width: 400px">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner border border-5 border-success p-2 mb-2 border-opacity-25 border-warning-subtle">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="beyyellow.jpg" class="d-block w-100" alt="hold-up-dress" style="height: 500px; width:300px">
+                <div class="carousel-caption d-none d-md-block opacity-50" style="background-color: lightgrey">
+                    <h5><b>Hold Up Ruffle Dress</b></h5>
+                    <h6><b>$5,000</h6></b>
+                    <p><b>Hold up...is that THE yellow dress. Yes, it is. Brought to you straight from Bey herself. Bat not included.</b></p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="beyrenhood.jpg" class="d-block w-100" alt="renhood" style="height: 500px; width:300px">
+                <div class="carousel-caption d-none d-md-block opacity-50" style="background-color: lightgrey">
+                    <h5><b>Renaissance Hoodie</b></h5>
+                    <h6><b>$1750</b></h6>
+                    <p><b>Get our most popular hoodie now before they're gone.</b></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="beypinkhood.jpg" class="d-block w-100" alt="pinkhood" style="height: 500px; width:300px">
+                <div class="carousel-caption d-none d-md-block opacity-50" style="background-color: lightgrey">
+                    <h5><b>Pink Coachella Hoodie</b></h5>
+                    <h6><b>$150</b></h6>
+                    <p><b>Not directly from Bey but still meant to slay.</b></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br />
+    <br />
+    <hr>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+<footer class="footer" style="width: 100%; height: 20%;">
+    <div class="row justify-content-center py-5 " style="width: 100%; height: 200px;">
+        <div class="col-4 h-75 card bg-success bg-dark border-bottom border-body" style="width: 300px;">
+            <div class="card-body font-monospace">
+                <a class="navbar-brand text-black fs-6 text-white-50">
+                    <img src="beytn.jpg" alt="Logo" width="50" height="30" class="d-inline-block align-text-top">
+                    <p><b>Beehive Merchandise</p></b>
+                    <p>Slay, or go away.</p>
+                </a>
+                <div class="navbar-brand text-black text-break fs-6 text-white-50 text-center">
+                    <img src="socials.jpg" alt="socials" width="60" height="30"
+                        class="d-inline-block align-text-top ">
+                    <p class="text-grey text-center text-break">Follow up on socials for the <br />latest news
+                        and sightings</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 h-75 py-5" style="width: 300px;">
+            <div class="card-body font-monospace">
+                <p class="card-text text-white-50 fs-6">We work hard to bring you the latest and greatest news
+                    about
+                    our Queen Bee. If you would like us to continue our mission, please donate to our cause.</p>
+                <a href="#" class="btn btn-secondary">Donate</a>
+            </div>
+        </div>
+
+        <div class="col-4 py-5 row" style="width: 100px;">
+            <div class="col-4 row align-items-start">
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Your
+                    Merch</a>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Pricing</a>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Explore</a>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Reviews</a>
+                <a href="#"
+                    class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Sightings</a>
+            </div>
+        </div>
+
+        <div class="col-4 p-5 row" style="width: 100px;">
+            <div class="col-4 row align-items-start">
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Privacy
+                    Policy</a>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Legal</a>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Help
+                    Center</a>
+                <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white-50">Reviews</a>
+            </div>
+        </div>
+        <article>
+            <div class="navbar-brand text-black text-break fs-6 p-5 text-white-50 text-center">
+                <h6 class="text-grey text-center">This website is not affiliated with any past or present
+                    superstars. Donate at your expense.</h6>
+            </div>
+        </article>
+</footer>
+
+
+</html>

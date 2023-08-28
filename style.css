@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+  }
+
+
+.sidebar {
+    float: left
+}
+
+hr {
+    height: 4px;
+    background-color: whitesmoke;
+}
+.card-body {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 5 !important;
+    margin-bottom: 5 !important;
+}
+
+.intro_button {
+    margin-left: 800px;
+}
+.carousel-inner {
+    height: 500px;
+
+}
